@@ -1,0 +1,43 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:chem.property="http://zcy.ckcest.cn/tcm/chem/property#"
+    xmlns:ori.plant.property="http://zcy.ckcest.cn/tcm/ori/plant/property#"
+    xmlns:relation="http://zcy.ckcest.cn/tcm/relation#"
+    xmlns:dis.tcm.property="http://zcy.ckcest.cn/tcm/dis/tcm/property#"
+    xmlns:ori.mineral.property="http://zcy.ckcest.cn/tcm/ori/mineral/property#"
+    xmlns:pre.property="http://zcy.ckcest.cn/tcm/pre/property#"
+    xmlns:category="http://zcy.ckcest.cn/tcm/category#"
+    xmlns:dis.wm.property="http://zcy.ckcest.cn/tcm/dis/wm/property#"
+    xmlns:syn.property="http://zcy.ckcest.cn/tcm/syn/property#"
+    xmlns:med.property="http://zcy.ckcest.cn/tcm/med/property#"
+    xmlns:ori.animal.property="http://zcy.ckcest.cn/tcm/ori/animal/property#" >
+  <rdf:Description rdf:about="http://zcy.ckcest.cn/tcm/pre#29561">
+    <relation:contains rdf:resource="http://zcy.ckcest.cn/tcm/med#2767"/>
+    <category:category>方剂</category:category>
+    <pre.property:pre_function.function>风痹，手足缓弱，不能伸举。</pre.property:pre_function.function>
+    <pre.property:pre_basic.name>乌蛇丸</pre.property:pre_basic.name>
+    <relation:contains rdf:resource="http://zcy.ckcest.cn/tcm/med#777"/>
+    <pre.property:pre_function.usage>上为细末，炼蜜为丸，如梧桐子大。每服十丸，以热豆淋酒送下，不拘时候。</pre.property:pre_function.usage>
+    <pre.property:pre_basic.count>9</pre.property:pre_basic.count>
+    <relation:contains rdf:resource="http://zcy.ckcest.cn/tcm/med#3021"/>
+    <relation:contains rdf:resource="http://zcy.ckcest.cn/tcm/med#3547"/>
+    <relation:contains rdf:resource="http://zcy.ckcest.cn/tcm/med#3939"/>
+    <relation:contains rdf:resource="http://zcy.ckcest.cn/tcm/med#1064"/>
+    <pre.property:pre_basic.chapter>卷十九</pre.property:pre_basic.chapter>
+    <relation:contains rdf:resource="http://zcy.ckcest.cn/tcm/med#5618"/>
+    <relation:contains rdf:resource="http://zcy.ckcest.cn/tcm/med#4411"/>
+    <pre.property:pre_basic.book>《圣惠》</pre.property:pre_basic.book>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://zcy.ckcest.cn/tcm/pre#50433">
+    <category:category>方剂</category:category>
+    <pre.property:pre_basic.name>金樱子煎膏</pre.property:pre_basic.name>
+    <pre.property:pre_basic.book>《全国中药成药处方集》</pre.property:pre_basic.book>
+    <pre.property:pre_function.function>遗精滑泄。</pre.property:pre_function.function>
+    <relation:contains rdf:resource="http://zcy.ckcest.cn/tcm/med#554"/>
+    <relation:contains rdf:resource="http://zcy.ckcest.cn/tcm/med#3594"/>
+    <pre.property:pre_basic.chapter>(青岛方)</pre.property:pre_basic.chapter>
+    <pre.property:pre_function.usage>煎膏，滴纸不散，加沙苑蒺藜膏一斤，再加蜜成膏。</pre.property:pre_function.usage>
+    <relation:treats rdf:resource="http://zcy.ckcest.cn/tcm/dis/tcm#3302"/>
+    <pre.property:pre_basic.count>1</pre.property:pre_basic.count>
+  </rdf:Description>
+</rdf:RDF>
