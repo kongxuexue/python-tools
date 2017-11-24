@@ -32,3 +32,4 @@ if __name__ == '__main__':
     print(ret)
     for hit in ret['hits']['hits']:
         print(hit)
+

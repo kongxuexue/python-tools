@@ -1,5 +1,5 @@
 '''
-jieba分词[https://github.com/fxsjy/jieba/tree/jieba3k]
+jieba分词 https://github.com/fxsjy/jieba/tree/jieba3k
 '''
 from __future__ import unicode_literals
 print(__doc__)
