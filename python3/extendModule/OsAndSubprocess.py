@@ -1,17 +1,19 @@
 import os
-import subprocess,signal
+import subprocess, signal
+
 
 def useCMD():
-    '''
+    """
     当前进程调用cmd命令，属于阻塞式
     :return:
-    '''
+    """
     print('一般os.system运行后不返回值')
     print(os.system("ipconfig"))
 
     print('使用os.open可以获取返回值')
     b = os.popen('ipconfig')
     print(b.read())
+
 
 def my_subprocess():
     print('产生子进程运行命令，属于阻塞式')
@@ -20,6 +22,7 @@ def my_subprocess():
     print(a.args)
     a.send_signal(signal.CTRL_C_EVENT)
     print(a.returncode)
+
 
 if __name__ == '__main__':
     print('>>>>>>  os ')

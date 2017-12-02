@@ -54,6 +54,11 @@ def stringFunc():
     print(a.find('a'))
     print('%s %s %s' % (str.islower(a), str.lower(a), a.split(' ', 2)))
 
+    # 填充常跟对齐一起使用
+    # ^ 、 < 、 > 分别是居中、左对齐、右对齐，后面带宽度
+    # :号后面带填充的字符，只能是一个字符，不指定的话默认是用空格填充
+    print('step: {:<3}  loss: {:<6.6} acc: {:6.6}'.format(1, 2.12345678, 3.0))
+
 
 def string_formate():
     print('{}网址： "{}!"'.format('菜鸟教程', 'www.runoob.com'))
